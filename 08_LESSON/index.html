@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Manh Do" />
+  <meta name="description" content="this page contains all the things i am learning how to create as i learn HTML." />
+  <title>First Web Page</title>
+  <link rel="icon" href="html5.png" type="image/x-icon" />
+  <!-- noi nay co the lien ket den javascript file, css file -->
+  <link rel="stylesheet" href="main.css" type="text/css" />
+</head>
+
+<body>
+  <h1>My goals for the Year</h1>
+
+  <header>
+    <nav aria-label="primary-navigation">
+      <ul>
+        <li>
+          <a href="#html">Learn HTML</a>
+        </li>
+        <li>
+          <a href="#vacation">Plan a Vacation</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <hr />
+  <main>
+    <article id="html">
+      <h2>I'm ready to learn HTML</h2>
+      <p>This is my first web page.</p>
+      <section>
+        <img src="img/html_logo.png" alt="html_logo" width="300" height="300" title="I am learning HTML5" />
+
+        <figure>
+          <figcaption>An Example of HTML5 Code</figcaption>
+          <p>
+            <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+          </p>
+        </figure>
+      </section>
+      <section>
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how I:</p>
+        <ol>
+          <li>... I learn more about web dev.</li>
+          <li>... I plant out my schedule.</li>
+          <li>
+            ... I use resources form
+            <abbr title="Mozilla Develop Network"><a href="https://developer.mozilla.org/">MDN</a></abbr>
+          </li>
+        </ol>
+      </section>
+
+      <aside>
+        <details>
+          <summary>
+            Guess the <mark>number of hours</mark> i code per day
+          </summary>
+          <p>i start at <time datetime="08:00">8 am</time> and i write code <time datetime="PT3H">3 hours</time> every
+            morning.</p>
+        </details>
+      </aside>
+
+      <table>
+        <caption>My Daily Schedule</caption>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Morning</th>
+            <td>
+              <time datetime="08:00">8 am</time> - <time datetime="11:00">11 am</time>
+            </td>
+            <td>Write code</td>
+          </tr>
+          <tr>
+            <th scope="row">Break</th>
+            <td>
+              <time datetime="11:00">11 am</time> - <time datetime="12:00">12 am</time>
+            </td>
+            <td>Eat lunch</td>
+          </tr>
+          <tr>
+            <th scope="row">Afternoon</th>
+            <td>
+              <time datetime="12:00">12 pm</time> - <time datetime="17:00">5 pm</time>
+            </td>
+            <td>Study for other Courses</td>
+          </tr>
+          <tr>
+            <th scope="row">Evening</th>
+            <td rowspan="2">All other times</td>
+            <td>Free Time</td>
+          </tr>
+          <tr>
+            <th scope="row">Night</th>
+            <td>Sleep</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">And that's what i do everyday, 5 days for week. just eat, sleep, code ..and recharge!</td>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
+
+    <hr />
+
+    <article id="vacation">
+      <h2>I am also planning a Vacation</h2>
+      <figure>
+        <img src="img/vacation.png" alt="vacation" width="400" title="it's 5 o'clock" />
+        <figcaption>Vacation</figcaption>
+      </figure>
+      <p>I've been working hard and <em>really need a getaway.</em></p>
+      <p>I live in Hanoi, i want visit a streets.</p>
+      <section>
+        <h3>Place I'd Like to Visit</h3>
+        <ul>
+          <li>
+            <p>
+              I've heard good thing about the street in Hanoi with famous people
+              on the nameplate and famous places here
+            </p>
+            <figure>
+              <img src="img/hoan_kiem_lake.png" alt="hoan kiem Lake" width="400" title="i want to visit HK Lake"
+                loading="lazy" />
+              <figcaption>Hoan Kiem Lake</figcaption>
+            </figure>
+
+            <address>
+              Hoan Kiem Lake <br />
+              Dinh Tien Hoang Street <br />
+            </address>
+          </li>
+          <!-- <li>
+            <p>I've heard good thing about the street in Hanoi with famous people on the nameplate and famous places here</p>
+            <address>
+                Hoan Kiem Lake <br>
+                Dinh Tien Hoang Street <br>
+            </address>
+          </li> -->
+
+      </section>
+      <!-- TODO: Add more place -->
+      <!-- <div></div>
+      <span></span> -->
+      <section>
+        </ul>
+        <h3>Place I'd Want to Avoid</h3>
+        <dl>
+          <dt>Son Tra Mountain</dt>
+          <dd>i hear this is very <strong>boring</strong></dd>
+
+          <dt>Yen Tu Mountain</dt>
+          <dd>Services is expensive</dd>
+        </dl>
+        <p>Mountain,<strong>just, i don't like it</strong></p>
+      </section>
+    </article>
+  </main>
+  <hr />
+  <footer>
+    <p>&lt;&lt;&lt; &copy; <a href="about.html">Manh Do</a> &gt;&gt;&gt;</p>
+    <p>
+      <a href="#">Back to top page</a>
+    </p>
+  </footer>
+</body>
+
+</html>
